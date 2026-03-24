@@ -52,3 +52,8 @@ uppercaseBtn.addEventListener("click", () => {
   const name = nameInput.value;
   output.textContent = name.toUpperCase();
 })
+
+reverseBtn.addEventListener("click", () => {
+  const name = nameInput.value;
+  output.textContent = name.split("").reverse().join("");
+})
